@@ -1,0 +1,11 @@
+/* src/styles/tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.menu{
+    @apply bg-fuchsia-600 rounded-full  font-mono px-4 hover:text-fuchsia-600 hover:bg-transparent transform
+}
+.tittle{
+    @apply text-fuchsia-700 font-bold text-2xl p-3  md:p-1 md:w-fit border-b-[10px] border-b-fuchsia-600 rounded-full
+}
